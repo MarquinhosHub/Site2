@@ -1,0 +1,20 @@
+.foto {
+    font-weight: 200px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    animation: animacao 1s infinite;
+}
+.ContainerLinks{
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes animacao {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
